@@ -37,7 +37,7 @@ impl CPU {
         let sp = self.stack_pointer;
         let stack = &mut self.stack;
 
-        if sp > stack.len() {
+        if sp >= stack.len() {
             panic!("Stack overflow");
         }
         stack[sp] = self.position_in_memory as u16;
