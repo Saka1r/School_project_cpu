@@ -1,5 +1,5 @@
 # ___________🔮👾CPU EMULATOR👾🌃___________
- Minimal CPU emulator
+ Minimal CPU emulator :)
 
 You need rust
 
